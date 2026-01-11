@@ -8,6 +8,12 @@ The project is built as a **full-stack application** consisting of:
 
 ---
 
+## 📸 Demo
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-11 203918" src="https://github.com/user-attachments/assets/79bab82f-471d-4583-8d92-784cf3fb2601" />
+*The video shown is used only for demonstration purposes.*
+
+
 ## 🚀 Features
 
 - Automatically extracts YouTube captions
