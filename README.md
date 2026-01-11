@@ -52,8 +52,8 @@ youtube-ai-project/
 4. Transcript is split into chunks
 5. Chunks are summarized to build compact context
 6. User query is classified into:
-   - **GLOBAL intent**
-   - **RETRIEVAL intent**
+   - **GLOBAL intent** → summary or overview type questions
+   - **RETRIEVAL intent** → specific fact-based questions searched via vector embeddings
 7. LLM generates answers **only from video content**
 
 ---
@@ -62,8 +62,8 @@ youtube-ai-project/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd youtube-ai-project/backend
+git clone https://github.com/AbhayJaiswalgit/youtube-ai-tutor.git
+cd youtube-ai-tutor/backend
 ```
 
 ### 2️⃣ Create and activate a virtual environment
