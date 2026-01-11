@@ -1,0 +1,13 @@
+# env
+.env
+
+# python
+__pycache__/
+venv/
+
+# temporary / generated
+*.webm
+*.wav
+
+# editor
+.vscode/

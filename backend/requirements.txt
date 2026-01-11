@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-huggingface
+huggingface-hub
+python-dotenv
+youtube-transcript-api
+faiss-cpu
+openai-whisper
+yt-dlp
+fastapi
+uvicorn
+torch

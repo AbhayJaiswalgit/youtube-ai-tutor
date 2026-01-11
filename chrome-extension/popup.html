@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>YouTube AI Tutor</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <!-- HEADER -->
+      <div class="header">
+        <div class="title">YouTube AI Tutor</div>
+
+        <div class="right">
+          <div id="status" class="status idle">Waiting for video</div>
+
+          <!-- Theme toggle -->
+          <button
+            id="themeToggle"
+            class="theme-btn"
+            title="Toggle theme"
+            aria-label="Toggle theme"
+          >
+            🌙
+          </button>
+        </div>
+      </div>
+
+      <!-- CHAT -->
+      <div id="chat" class="chat"></div>
+
+      <!-- INPUT -->
+      <div class="input-bar">
+        <input id="question" placeholder="Ask about the video…" disabled />
+        <button id="askBtn" disabled>➤</button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

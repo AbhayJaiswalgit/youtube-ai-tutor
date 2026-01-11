@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube AI Tutor",
+  "version": "1.0",
+  "description": "Ask questions from a YouTube video",
+  "permissions": ["activeTab", "sidePanel", "storage"],
+  "host_permissions": ["http://127.0.0.1/*"],
+
+  "action": {
+    "default_title": "Open YouTube AI Tutor"
+  },
+
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
